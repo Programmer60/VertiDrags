@@ -1,0 +1,694 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("assets/images/bg.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+  position: relative;
+  
+  
+}
+
+
+
+.main .box {
+  height: 644px;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+.logo{
+  margin: -185px;
+  font-weight: 800;
+}
+
+.btns{
+  margin: -200px;
+}
+
+nav {
+  max-width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  color: red;
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+
+.hero > :nth-child(1) {
+  font-family: "Roboto";
+  font-weight: 1000;
+  font-size: 48px;
+  text-align: center;
+  display: block;
+  width: 473px;
+}
+
+.hero > :nth-child(2) {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  padding: 6px;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.btn {
+  padding: 7px 11px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(248, 243, 243, 0.021);
+  border-radius: 4px;
+  border: 1px solid #5e5e5e;
+  cursor: pointer;
+  font-size: 14px;
+  
+}
+
+  
+
+
+.btn :nth-child(2){
+  padding:7px 12px;
+  position: relative;
+}
+
+.btns svg{
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  margin-right: 8px; /* Space between SVG and text */
+  fill: currentColor;
+  margin: -5px 4px; 
+}
+
+
+
+.arrow{
+  padding: 4px;
+  color:#a5a5a5;
+  font-size:6.8px;
+  margin-left: 6px;
+  height: 11px;
+    
+}
+.btn-red {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  padding: 11px 27px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 700;
+  border-color: rgb(229, 9, 20);
+  transition: all 0.3s ease; /* Smooth transition */
+  
+  
+}
+
+.btn-red:hover{
+  background-color: rgba(229, 9, 20, 0.7); /* Change button color */
+}
+
+.btn-red-sm {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border-color: rgb(229, 9, 20);
+}
+
+.btn-red-sm:hover
+{
+  background-color: rgba(229, 9, 20, 0.7);
+
+}
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.hero1 {
+  padding: 1px 10px 9px 159px;
+  font-weight: 700;
+  color: white;
+  font-family: "Roboto";
+  background-color: rgba(0, 0, 0);
+  font-size: 25px;
+}
+
+.hero1-btn{
+  margin-top: 15px;
+}
+
+.hero1-btn button {
+  padding: 4px 20px 3px 10px;
+  background-color: #0f0f0f;
+  color: white;
+  border: 0.25px solid #5e5e5e;
+  border-radius: 4px;
+  font-size: 14px;
+  height:30px;
+  height: 37px;
+  margin-right: 10px;
+}
+
+.poster {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 8px 0px 172px;
+  position: relative;
+  gap: 40px;
+  overflow-x: auto;
+}
+
+li img{
+  position: relative;
+
+}
+
+span.number {
+  color: black;
+  display: inline-block;
+    font-size: 100px;
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--text-color);
+    -webkit-text-stroke: 0.10rem rgb(255, 255, 255);
+    text-shadow: 0 0 2rem black;
+    top:-139px;
+    left: -22px;
+    font-family: sans-serif;    
+}
+
+span.number2{
+  line-height: 1;
+    display: inline-block;
+    height: 1em;
+    position: relative;
+    font-weight: 900;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    top:-139px;
+    left: -92px;
+    z-index: 1;
+    font-size: 98px;
+    font-family: sans-serif;
+
+}
+ 
+span.number::before{
+  content: attr(data-content);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0;
+    position: absolute; 
+    margin: 44px 24px;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+
+/* Style the scrollbar track */
+.poster::-webkit-scrollbar {
+  width: 1px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+/* Style the scrollbar track */
+.poster::-webkit-scrollbar-track {
+  background:#000000;; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the scrollbar thumb */
+.poster::-webkit-scrollbar-thumb {
+  background: #000000;; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the scrollbar thumb on hover */
+.poster::-webkit-scrollbar-thumb:hover {
+  background:#000000;; /* Darker color when hovered */
+}
+
+.poster img {
+  position: relative;
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: auto;
+}
+
+.poster img:hover {
+  transform: scale(1.06);
+  transition: all 0.15s linear;
+  cursor: pointer;
+}
+
+.more{
+  color: white;
+  padding: 0px 10px 20px 170px;
+  
+}
+.boxes{
+  display: grid;
+  color: red;
+  grid-template-columns: 290px 290px 290px 290px;
+  grid-template-rows: 265px;
+  gap: 18px;
+  justify-content: center;
+  align-content: center; 
+  margin-left: 30px;
+}
+
+.boxes h2{
+  color: white;
+  font-size: 22px;
+  padding: 24px 16px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.boxes p{
+  color:#bbbcc5;
+  padding:  0px 13px 14px;
+  font-size:16px ;
+  font-weight:400;
+  font-family:"Roboto";
+}
+
+.boxes svg{
+  position: relative;
+  top: 28px;
+  left: 200px;
+}
+
+.boxes div{
+  border: 2px;
+  border-radius: 13px;
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);;
+
+}
+
+.top10{
+  margin-bottom: -55px;
+}
+
+.main input {
+  padding: 16px 172px 15px 14px;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  font-weight: 700;
+}
+
+.curve-box {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+  height: 7.25rem;
+  position: relative;
+  z-index: 5;
+  margin-top: -2rem;
+  max-width: 120rem;
+  margin-inline: auto;
+}
+
+.curve-container {
+  padding: 50px 762px;
+  margin: auto;
+  position: absolute;
+  border-top-right-radius: 50% 50%;
+  border-top-left-radius:50% 35%;
+  border-bottom: none;
+  background: radial-gradient(100% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%,rgba(0, 0, 0, 0.1) 100%), black;
+  background-clip: padding-box;
+  border: solid 0.25rem transparent;
+}
+
+.curve-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin-top: -0.25rem;
+  border-radius: inherit;
+  background: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
+}
+
+.faq h2 {
+  font-size: 24px;
+  margin-left: 126px;
+  font-family: "Roboto";
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 34px;
+  font-family: "Roboto";
+  width: 100%;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1); /* To invert plus icon colour */
+}
+
+.faqbox {
+  transition: all 1s ease-out;
+  font-size: 21px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  width: 80%;
+  margin: 9px auto;
+  cursor: pointer;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 60vw;
+  margin: auto;
+  padding: 60px;
+}
+
+footer .questions {
+  padding: 49px 0;
+  margin-left: -134px;
+  margin-top: 36px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: -134px;
+  width: calc(100% + 14.75rem);
+}
+
+.footer a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.lower1{
+  margin: -22px 39px;
+    padding: 0px 39px;
+}
+.lower{
+  color: white;
+  padding:11px 82px;
+}
+
+.lower2{
+  width: 43%;
+  margin-left: -10px;
+}
+
+.btn-red2{
+  background-color: rgb(229, 9, 20);
+  color: white;
+  padding: 10px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+  border-color: rgb(229, 9, 20);
+  margin-left: 8px;
+}
+
+.btn-red2:hover{
+  background-color: rgb(229, 9, 20,0.7);
+}
+
+.btn2{
+  margin: 68px 0px;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin: 60px -134px;
+}
+
+.btn2 svg{
+  width: 20px; 
+  height: 20px; 
+  margin-right: 8px; 
+  fill: currentColor;
+  margin: -5px 4px;
+
+}
+.text{
+  margin:-30px 0px;
+  font-size: 14px;
+  margin: -24px -135px;
+}
+
+@media screen and (max-width: 1300px) {
+  nav {
+    max-width: 326vw;
+}
+
+  .first {
+    flex-wrap: wrap;
+  }
+
+  .hero > :nth-child(1) {
+    font-size: 134px;
+        width: 234vw;
+        font-weight: 600;
+  }
+
+  .hero > :nth-child(2) {
+    font-size: 54px;
+    padding: 21px;
+  }
+
+  .hero > :nth-child(3) {
+    font-size: 44px;
+    width: 150vw;
+    
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .faq h2 {
+    text-align: center;
+    font-size: 15px;
+    margin-left: -62px;
+  }
+
+  .faqbox {
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  footer {
+    max-width: 90vw;
+    padding: 75px 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+.footer a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav{
+
+  }
+
+
+  .main {
+    background-size:986vh;
+        height: 415vh;
+        width: 397vw;  
+  }
+
+  .main .box{
+    height: 100%;
+
+  }
+
+  .logo{
+    margin: -189px;
+  }
+
+  .logo img{
+    width: 40vw;
+    padding: 22px 36px;
+    margin-top: 142px;
+  }
+
+  .btns{
+    margin:12px 13px 12px 13px ;
+    font-size: 12em;
+  }
+
+  .btn{
+    height: 17vh;
+    font-size: 40px;
+  }
+
+  .hero-buttons :nth-child(1){
+    font-size: 40px;
+    padding: 24px 36px;
+  }
+
+  .hero-buttons :nth-child(2){
+    padding: 24px 16px 75px 10px;  
+  }
+
+  
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    }
+
+    .boxes svg{
+      position:sticky;
+      top: -7px;
+      left: 785px;
+    }
+
+    .more{
+      padding: 12px 35px;
+    }
+
+
+    .boxes div {
+      border: 2px;
+      border-radius: 13px;
+      width: 859px;
+    }
+
+    .boxes p{
+      font-size: 20px;
+    }
+
+    .faq h2{
+        margin-right: 557px;
+        font-size: 19px;
+        font-weight: 500;
+        margin-bottom:17px;
+
+    }
+
+    .faq{
+        margin:20px -59px;
+        width: 80%;
+        padding: 11px 10px;
+        
+    }
+
+    .faqbox{
+        max-width: 90%;
+        margin: 9px auto;
+      }
+
+      .top10{
+        overflow-x: hidden;
+      }
+
+      .poster{
+        overflow-x: hidden;
+      }
+
+  
+    
+
+
+    
+  
+
+
+
+
+}
